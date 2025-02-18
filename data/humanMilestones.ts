@@ -199,12 +199,28 @@ export const humanMilestones: HumanMilestone[] = [
     impact: "Revolutionized personal transportation and shaped modern cities.",
   },
   {
+    id: "first-film",
+    year: 1888,
+    title: "First Motion Picture",
+    description: "Louis Le Prince creates 'Roundhay Garden Scene', considered the earliest surviving motion picture.",
+    categories: ["Art", "Technology", "Film"],
+    impact: "Marked the beginning of motion picture technology and filmmaking.",
+  },
+  {
     id: "radio",
     year: 1895,
     title: "Invention of Radio",
     description: "Guglielmo Marconi sends and receives the first radio signal.",
     categories: ["Technology", "Communication"],
     impact: "Enabled long-distance wireless communication and broadcasting.",
+  },
+  {
+    id: "first-commercial-film",
+    year: 1895,
+    title: "First Commercial Film Screening",
+    description: "The Lumière brothers hold the first commercial film screening in Paris.",
+    categories: ["Art", "Technology", "Film"],
+    impact: "Launched the era of public film exhibitions and the cinema industry.",
   },
   {
     id: "wright-brothers",
@@ -223,6 +239,14 @@ export const humanMilestones: HumanMilestone[] = [
     impact: "Fundamentally changed our understanding of space, time, and the universe.",
   },
   {
+    id: "first-feature-length-film",
+    year: 1906,
+    title: "First Feature-Length Film",
+    description: "Australia produces 'The Story of the Kelly Gang', the world's first feature-length film.",
+    categories: ["Art", "Film"],
+    impact: "Pioneered long-form storytelling in cinema, setting the stage for modern feature films.",
+  },
+  {
     id: "cubism",
     year: 1907,
     title: "Cubism",
@@ -231,12 +255,31 @@ export const humanMilestones: HumanMilestone[] = [
     impact: "Revolutionized the approach to perspective and representation in Western art.",
   },
   {
+    id: "birth-of-hollywood",
+    year: 1911,
+    title: "Birth of Hollywood",
+    description:
+      "The first movie studio opens in Hollywood, marking the beginning of the American film industry's center.",
+    categories: ["Art", "Film"],
+    impact: "Established Hollywood as the world's film capital and shaped the global entertainment industry.",
+  },
+  {
     id: "assembly-line",
     year: 1913,
     title: "Moving Assembly Line",
     description: "Henry Ford introduces the moving assembly line for automobile production.",
     categories: ["Technology", "Industrial"],
     impact: "Revolutionized manufacturing, enabling mass production and cheaper goods.",
+  },
+  {
+    id: "birth-of-a-nation",
+    year: 1915,
+    title: "The Birth of a Nation",
+    description:
+      "D.W. Griffith's controversial film 'The Birth of a Nation' is released, showcasing advanced filmmaking techniques.",
+    categories: ["Art", "Film"],
+    impact:
+      "Despite its racist content, it revolutionized filmmaking techniques and demonstrated the cultural power of cinema.",
   },
   {
     id: "jazz",
@@ -255,12 +298,38 @@ export const humanMilestones: HumanMilestone[] = [
     impact: "Transformed entertainment, news, and advertising, becoming a central part of modern culture.",
   },
   {
+    id: "first-sound-film",
+    year: 1927,
+    title: "First Talking Picture",
+    description: "Warner Bros. releases 'The Jazz Singer', the first feature-length film with synchronized dialogue.",
+    categories: ["Art", "Technology", "Film"],
+    impact:
+      "Revolutionized the film industry by introducing synchronized sound, marking the end of the silent film era.",
+  },
+  {
+    id: "gone-with-the-wind",
+    year: 1939,
+    title: "Gone with the Wind",
+    description: "Victor Fleming's 'Gone with the Wind' becomes a landmark in film history.",
+    categories: ["Art", "Film"],
+    impact:
+      "Set records for attendance and became a cultural phenomenon, influencing public perception of the American South and Civil War.",
+  },
+  {
     id: "penicillin",
     year: 1928,
     title: "Discovery of Penicillin",
     description: "Alexander Fleming discovers penicillin, the first antibiotic.",
     categories: ["Technology", "Medicine"],
     impact: "Revolutionized medicine, enabling treatment of previously deadly bacterial infections.",
+  },
+  {
+    id: "first-color-film",
+    year: 1935,
+    title: "First Full-Length Color Film",
+    description: "Technicolor releases 'Becky Sharp', the first feature-length film in full three-strip Technicolor.",
+    categories: ["Art", "Technology", "Film"],
+    impact: "Brought vibrant color to cinema, enhancing visual storytelling and audience experience.",
   },
   {
     id: "abstract-expressionism",
@@ -270,6 +339,16 @@ export const humanMilestones: HumanMilestone[] = [
     categories: ["Art", "Painting"],
     impact:
       "Shifted the center of the Western art world from Paris to New York and influenced subsequent art movements.",
+  },
+  {
+    id: "citizen-kane",
+    year: 1941,
+    title: "Citizen Kane",
+    description:
+      "Orson Welles directs and stars in 'Citizen Kane', often cited as one of the greatest films ever made.",
+    categories: ["Art", "Film"],
+    impact:
+      "Revolutionized film techniques and storytelling, influencing countless filmmakers and setting new standards for cinema.",
   },
   {
     id: "computer",
@@ -294,6 +373,15 @@ export const humanMilestones: HumanMilestone[] = [
     description: "James Watson and Francis Crick describe the double helix structure of DNA.",
     categories: ["Technology", "Science"],
     impact: "Revolutionized biology and medicine, enabling genetic engineering and personalized medicine.",
+  },
+  {
+    id: "first-3d-film",
+    year: 1953,
+    title: "First 3D Film Craze",
+    description: "The release of 'Bwana Devil' kicks off the first big 3D film craze in Hollywood.",
+    categories: ["Art", "Technology", "Film"],
+    impact:
+      "Introduced 3D technology to mainstream cinema, paving the way for future advancements in immersive filmmaking.",
   },
   {
     id: "sputnik",
@@ -337,12 +425,12 @@ export const humanMilestones: HumanMilestone[] = [
     impact: "Demonstrated the potential of human space exploration and advanced numerous technologies.",
   },
   {
-    id: "punk-rock",
-    year: 1976,
-    title: "Punk Rock Emerges",
-    description: "The Ramones release their debut album, often considered the first punk rock album.",
-    categories: ["Art", "Music"],
-    impact: "Challenged musical and social norms, influencing fashion, politics, and DIY culture.",
+    id: "jaws",
+    year: 1975,
+    title: "Jaws",
+    description: "Steven Spielberg's 'Jaws' is released, becoming the first summer blockbuster.",
+    categories: ["Art", "Film"],
+    impact: "Changed Hollywood's business model, leading to the rise of high-concept films and summer blockbusters.",
   },
   {
     id: "personal-computer",
@@ -351,6 +439,32 @@ export const humanMilestones: HumanMilestone[] = [
     description: "The Altair 8800, one of the first personal computers, is released.",
     categories: ["Technology", "Computing"],
     impact: "Began the personal computer revolution, bringing computing to homes and small businesses.",
+  },
+  {
+    id: "star-wars",
+    year: 1977,
+    title: "Star Wars and ILM",
+    description:
+      "George Lucas releases 'Star Wars' and founds Industrial Light & Magic (ILM), revolutionizing special effects.",
+    categories: ["Art", "Technology", "Film"],
+    impact: "Set new standards for visual effects in film and led to numerous technological innovations in filmmaking.",
+  },
+  {
+    id: "star-wars-cultural-impact",
+    year: 1977,
+    title: "Star Wars Cultural Phenomenon",
+    description: "George Lucas's 'Star Wars' becomes a global cultural phenomenon.",
+    categories: ["Art", "Film"],
+    impact:
+      "Redefined movie merchandising, fan culture, and the science fiction genre, becoming a cornerstone of popular culture.",
+  },
+  {
+    id: "punk-rock",
+    year: 1976,
+    title: "Punk Rock Emerges",
+    description: "The Ramones release their debut album, often considered the first punk rock album.",
+    categories: ["Art", "Music"],
+    impact: "Challenged musical and social norms, influencing fashion, politics, and DIY culture.",
   },
   {
     id: "postmodernism",
@@ -396,6 +510,25 @@ export const humanMilestones: HumanMilestone[] = [
       "Popularized alternative rock, influenced fashion trends, and gave voice to Generation X's disillusionment.",
   },
   {
+    id: "matrix",
+    year: 1999,
+    title: "The Matrix",
+    description:
+      "The Wachowskis release 'The Matrix', blending philosophical themes with groundbreaking special effects.",
+    categories: ["Art", "Film", "Technology"],
+    impact:
+      "Revolutionized visual effects with 'bullet time', influenced fashion, and sparked discussions about reality and technology.",
+  },
+  {
+    id: "toy-story",
+    year: 1995,
+    title: "First CGI Feature Film",
+    description: "Pixar releases 'Toy Story', the first fully computer-animated feature film.",
+    categories: ["Art", "Technology", "Film"],
+    impact:
+      "Pioneered feature-length computer animation, revolutionizing the animation industry and inspiring a new era of digital filmmaking.",
+  },
+  {
     id: "human-genome",
     year: 2003,
     title: "Human Genome Project Completed",
@@ -404,12 +537,29 @@ export const humanMilestones: HumanMilestone[] = [
     impact: "Opened new frontiers in medicine, biotechnology, and our understanding of human biology.",
   },
   {
+    id: "lord-of-the-rings",
+    year: 2001,
+    title: "The Lord of the Rings Trilogy",
+    description: "Peter Jackson's 'The Lord of the Rings' trilogy begins with 'The Fellowship of the Ring'.",
+    categories: ["Art", "Film", "Technology"],
+    impact: "Set new standards for epic filmmaking and visual effects, greatly influencing fantasy in popular culture.",
+  },
+  {
     id: "smartphone",
     year: 2007,
     title: "First iPhone",
     description: "Apple introduces the iPhone, revolutionizing the smartphone industry.",
     categories: ["Technology", "Communication"],
     impact: "Transformed mobile computing, communication, and put the internet in everyone's pocket.",
+  },
+  {
+    id: "avatar",
+    year: 2009,
+    title: "Avatar and 3D Renaissance",
+    description: "James Cameron's 'Avatar' is released, pushing the boundaries of 3D and motion capture technology.",
+    categories: ["Art", "Technology", "Film"],
+    impact:
+      "Revitalized interest in 3D cinema and advanced motion capture techniques, influencing both filmmaking and virtual reality development.",
   },
   {
     id: "social-media-art",
@@ -426,6 +576,16 @@ export const humanMilestones: HumanMilestone[] = [
     description: "Spotify launches in the US, accelerating the shift towards streaming music consumption.",
     categories: ["Technology", "Music"],
     impact: "Transformed how people consume music, challenging traditional music industry models.",
+  },
+  {
+    id: "parasite",
+    year: 2019,
+    title: "Parasite",
+    description:
+      "Bong Joon-ho's 'Parasite' becomes the first non-English language film to win the Academy Award for Best Picture.",
+    categories: ["Art", "Film"],
+    impact:
+      "Marked a significant moment for international cinema in the global market and sparked discussions about social inequality.",
   },
   {
     id: "ai-go",
@@ -475,7 +635,7 @@ export const categoryGroups: CategoryGroup[] = [
   },
   {
     name: "Arts and Culture",
-    categories: ["Art", "Architecture", "Painting", "Sculpture", "Music", "Digital"],
+    categories: ["Art", "Architecture", "Painting", "Sculpture", "Music", "Digital", "Film"],
   },
   {
     name: "Historical Periods",
